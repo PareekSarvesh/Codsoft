@@ -1,0 +1,415 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(0, 0, 33);
+    color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    background-color: rgb(18, 18, 62);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: rgb(183, 183, 240);
+    font-size: 1.01rem;
+}
+
+main hr {
+    border: 0;
+    background-color: #9c97f2;
+    height: 1.2px;
+    margin: 40px 84px;
+}
+
+
+.left {
+    font-size: 1.5rem;
+}
+
+.firstSection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 80px 0px;
+}
+
+.firstSection>div {
+    width: 30%;
+
+}
+
+.leftSection {
+    font-size: 3rem;
+}
+
+.rightSection img {
+    width: 80%;
+}
+
+
+.purple {
+    color: rgb(164, 116, 209);
+}
+
+.text-gray {
+    color: grey;
+}
+
+.resumeSection {
+    background-color: rgb(18, 18, 62);
+    color: white;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.resumeSection h1 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.resumeContent {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.resumeContent p {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+}
+
+.resume-button {
+    padding: 12px 24px;
+    background-color: rgb(164, 116, 209);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.resume-button:hover {
+    background-color: rgb(183, 183, 240);
+}
+
+
+#element {
+    color: rgb(164, 116, 209);
+}
+
+.secondSection {
+    max-width: 80vw;
+    margin: auto;
+    height: 75vh;
+}
+
+.secondSection h1 {
+    font-size: 1.9rem;
+}
+
+.secondSection .box {
+    background: white;
+    width: 80vw;
+    height: 2px;
+    margin: 56px 0;
+    display: flex;
+}
+
+.secondSection .vertical {
+    height: 93px;
+    width: 1px;
+    background-color: wheat;
+    margin: 0 110px;
+}
+
+.img-top {
+    width: 25px;
+    position: relative;
+    top: -32px;
+    left: -9px;
+}
+
+.vertical-title {
+    position: relative;
+    top: 75px;
+    width: 150px;
+}
+
+.vertical-desc {
+    position: relative;
+    top: 86px;
+    color: grey;
+    width: 150px;
+    font-size: 15px;
+}
+
+.projectsSection {
+    background-color: rgb(114, 64, 200);
+    color: white;
+    padding: 50px 0;
+}
+
+.projectsSection h1 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.projectsContent {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.project {
+    background-color: rgb(28, 28, 78);
+    border-radius: 10px;
+    padding: 20px;
+    width: 45%;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.project img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.project h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.project p {
+    font-size: 0.9rem;
+    margin-bottom: 15px;
+}
+
+.project a {
+    color: rgb(164, 116, 209);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.project a:hover {
+    text-decoration: underline;
+}
+
+
+.contactSection {
+    background-color: rgb(18, 18, 62);
+    color: white;
+    padding: 50px 0;
+}
+
+.contactSection h1 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.contactContent {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.contactForm {
+    width: 45%;
+}
+
+.contactForm h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.contactForm form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contactForm label {
+    margin-bottom: 5px;
+}
+
+.contactForm input,
+.contactForm textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.contactForm button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(164, 116, 209);
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.contactForm button:hover {
+    background-color: rgb(183, 183, 240);
+}
+
+.contactInfo {
+    width: 45%;
+}
+
+.contactInfo h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.contactInfo p {
+    margin-bottom: 15px;
+}
+
+.contactInfo ul {
+    list-style: none;
+}
+
+.contactInfo ul li {
+    margin-bottom: 10px;
+}
+
+.contactInfo a {
+    color: rgb(164, 116, 209);
+    text-decoration: none;
+}
+
+.contactInfo a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: rgb(40, 40, 59);
+    color: white;
+    padding: 20px 0;
+    /* Reduced padding for a thinner footer */
+    text-align: center;
+    /* Center text and elements */
+}
+
+footer .container {
+    max-width: 90vw;
+    /* Ensure content is within viewport */
+    margin: 0 auto;
+    /* Center the container */
+}
+
+footer p {
+    margin: 10px 0;
+    /* Adjust margin for spacing */
+    font-size: 0.9rem;
+    /* Reduced font size */
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+    /* Adjust margin for spacing */
+}
+
+footer ul li {
+    display: inline;
+    margin: 0 10px;
+    /* Adjust margin for spacing */
+}
+
+footer ul li a {
+    color: rgb(164, 116, 209);
+    text-decoration: none;
+}
+
+footer ul li a:hover {
+    text-decoration: underline;
+}
+
+footer .social-media {
+    margin: 10px 0;
+    /* Adjust margin for spacing */
+}
+
+footer .social-media a {
+    margin: 0 10px;
+    /* Adjust margin for spacing */
+}
+
+footer .social-media img {
+    width: 24px;
+    /* Adjust icon size */
+    height: 24px;
+    /* Adjust icon size */
+}
+
+footer form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* Center form elements */
+    margin: 10px 0;
+    /* Adjust margin for spacing */
+}
+
+footer form label {
+    margin-bottom: 5px;
+    /* Adjust margin for spacing */
+}
+
+footer form input[type="email"] {
+    padding: 8px;
+    /* Adjust padding for a smaller input field */
+    width: 200px;
+    /* Set a fixed width for the input */
+    margin-bottom: 5px;
+    /* Adjust margin for spacing */
+}
+
+footer form button {
+    padding: 8px 15px;
+    /* Adjust padding for a smaller button */
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(164, 116, 209);
+    color: white;
+    font-size: 0.9rem;
+    /* Reduced font size */
+    cursor: pointer;
+}
+
+footer form button:hover {
+    background-color: rgb(183, 183, 240);
+}

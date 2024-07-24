@@ -1,0 +1,164 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.background {
+    background-image: url('Elements/coffeebookaesthetics.jpg');/*bgimg*/
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden; /* Ensure the background image doesn't overflow */
+}
+
+.background::after {
+    content: '';
+    background-image: inherit; /* Inherit the background image for the blur effect */
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    filter: blur(8px); /* Apply blur effect */
+    opacity: 0.6; /* Adjust opacity as per your preference */
+}
+
+header {
+    background: linear-gradient(to bottom right, #543b27, #c67e3b); /* Coffee gradient for header */
+    color: #ffffff;
+    text-align: center;
+    padding: 1rem 0;
+    position: relative;
+}
+
+.bookmuglogo {
+    margin-bottom: 10px; /* Adjust margin as needed */
+    text-align: center; /* Center align the content */
+}
+
+.bookmuglogo img {
+    max-width: auto; /* Adjust max-width as per your logo size */
+    height: 150px; /* Maintain aspect ratio */
+    display: block; /* Ensure the image behaves like a block element */
+    margin: 0 auto; /* Center horizontally */
+}
+
+header p {
+    font-size: 1.5rem;
+    color: #ffffff;
+    margin-top: 10px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+    background-color: rgba(255, 255, 255, 0.9); /* Container background color with transparency */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.intro {
+    text-align: center;
+    margin-bottom: 40px;
+    padding-top: 40px;
+}
+
+.intro h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+    color: #333333;
+}
+
+.intro p {
+    font-size: 1.2rem;
+    color: #666666;
+}
+
+.cta {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.cta a {
+    display: inline-block;
+    background-color: #e67e22;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    border-radius: 25px;
+    transition: background-color 0.3s ease;
+    text-transform: uppercase;
+}
+
+.cta a:hover {
+    background-color: #d35400;
+}
+
+.content {
+    background-color: rgba(255, 255, 255, 0.9); /* Light background color */
+    padding: 40px 20px; /* Padding around the content */
+    margin-bottom: 20px; /* Spacing below the container */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Shadow effect */
+}
+
+.featured-items {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.featured-items h2 {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333333;
+}
+
+.featured-items .item {
+    width: 300px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.featured-items .item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.featured-items .item h3 {
+    font-size: 1.5rem;
+    color: #333333;
+    margin-bottom: 10px;
+}
+
+.featured-items .item p {
+    font-size: 1rem;
+    color: #666666;
+}
+
+
+footer {
+    background: linear-gradient(to bottom right, #543b27, #c67e3b); /* Coffee gradient for footer */
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    font-size: 0.9rem;
+}
